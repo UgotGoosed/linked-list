@@ -1,0 +1,74 @@
+# Project Title
+
+Write a program to animate search, insertion, and deletion in a linked list. The search button will search
+a specified value in the list. The delete button will delete a specified value from the list.
+The insert button appends the value into the list if the index is not specified; otherwise, it inserts
+the value into the specified index in the list
+
+## Example Output
+
+This image will display as your example output. Name the image README.jpg in your project folder.
+
+![Sample Output](README.jpg)
+
+## Analysis Steps
+
+I needed to create a Jpanel to hold a Textfield to get values for a value and an index. 
+I needed to create buttons to search, insert and delete values and indexes.
+if a value is added without an index, it will be added to the back end of the list.
+
+### Design
+
+I used 2 classes. One for the Jpanel set up and the action handlers.
+Another for the Linked List Animation where the list would have head and tail null 
+if no numbers were in list.
+once a value was put in, the head and tail labels would then point to the same number.
+if another number was inserted, it would be added to the end where the tail would
+then be pointing to the number.
+
+
+### Testing
+
+Once the panel was set up, setting up the size of the boxes and placement of the head and tail 
+labels and boxes were just playing with numbers. First I did 10 but the head and tail were 
+directly on top of each other and the boxes for the numbers were way to small. So I increased the
+size to 30 and it seemed to work nicely.
+
+drawing the arrows worked, it was just playing with numbers until they looked nice.
+
+testing the buttons worked when i entered values and clicked. no problems there.
+
+## Notes
+
+Explain any issues or testing instructions.
+
+## Do not change content below this line
+## Adapted from a README Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* etc
